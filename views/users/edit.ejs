@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1>Welcome to fazbook</h1>
+    <form action="/users" method="POST">
+        <label>
+             Email
+          <input type="text" name="email" value="">
+        </label>
+        <label>
+            First name
+          <input type="text" name="firstName" value="">
+        </label>
+        <label>
+              last name
+           <input type="text" name="lastName" value="">
+        </label>
+        <label>
+              DOB
+            <input type="date" name="dob" value="">
+        </label>
+    </form>
+  </body>
+</html>
